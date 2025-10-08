@@ -1,16 +1,22 @@
-# requirements.txt
-
-# Thư viện chính cho Streamlit
+requirements.txt cho ứng dụng Đánh giá Phương án Kinh doanh
+--- Giao diện Web (Bắt buộc) ---
 streamlit
 
-# Thư viện xử lý dữ liệu chính
+--- Tính toán & Xử lý Dữ liệu ---
+Xử lý cấu trúc dữ liệu bảng và hiển thị
 pandas
 
-# Thư viện cho chức năng AI (sử dụng Gemini API)
+Thư viện tính toán số học, đặc biệt cho NPV, IRR (numpy.npv, numpy.irr)
+numpy
+
+--- Xử lý AI & API Gemini ---
+Thư viện chính thức của Google cho Gemini API
 google-genai
 
-# Thư viện cần thiết để pandas đọc và ghi file Excel (.xlsx)
-openpyxl
+--- Xử lý File I/O ---
+Thư viện BẮT BUỘC để đọc file Word (.docx)
+python-docx
 
-# THÊM THƯ VIỆN NÀY ĐỂ GIẢI QUYẾT LỖI to_markdown()
+--- Tiện ích & Định dạng (Nên có) ---
+Thư viện hỗ trợ định dạng bảng cho to_markdown() (Đề phòng môi trường không hỗ trợ)
 tabulate
